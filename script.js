@@ -20,7 +20,7 @@ var playTimes = 0
 var turn = "X"
 
 arr.forEach(div => {
-  div.addEventListener("click", () => {
+  div.addEventListener("click", () =>  {
 
     if (div.textContent){
       alert("Não pode jogar no mesmo lugar que foi colocado o outro ")
