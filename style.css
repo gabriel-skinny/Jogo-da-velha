@@ -1,0 +1,36 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #2c4a94;
+  height: 100vh;
+}
+
+div.box{
+  height: 600px;
+  width: 700px;
+  border: 5px solid #ccc;
+  margin: auto;
+  margin-top: 150px;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+
+div.box div.inside{
+  height: 197px;
+  width: 230px;
+  border: 1px solid #ccc;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.box div.inside h1{
+  font-size: 200px;
+}
